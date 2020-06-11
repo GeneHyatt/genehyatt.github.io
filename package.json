@@ -1,0 +1,16 @@
+{
+  "name": "genehyatt-github-io",
+  "version": "1.0.0",
+  "description": "Push notifications playground.",
+  "scripts": {
+    "lint": "eslint \".\"",
+    "test": "npm run lint",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  },
+  "license": "Apache 2",
+  "homepage": "https://genehyatt.github.io"
+}
